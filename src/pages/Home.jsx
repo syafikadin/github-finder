@@ -1,6 +1,12 @@
+import UserResult from "../components/users/UserResults"
+import UserSearch from "../components/users/UserSearch"
+
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <UserSearch />
+        <UserResult />
+    </div>
   )
 }
 
